@@ -1,0 +1,33 @@
+ EmployeeService (Spring Boot + PostgreSQL)
+
+EmployeeService is a Spring Boot application built with Java that provides RESTful APIs to manage employee records. It demonstrates CRUD operations (Create, Read, Update, Delete) using Spring Data JPA with PostgreSQL as the database.
+
+ 🚀 Features
+- Add new employees
+- Retrieve all employees
+- Update employee details
+- Delete employees by ID
+- RESTful API endpoints tested with Postman
+
+🛠️ Technologies Used
+- Java (Spring Boot framework)
+- Spring Data JPA (ORM)
+- PostgreSQL (Database)
+- Hibernate (JPA implementation)
+- Postman (API testing)
+
+
+⚙️ Application Properties
+Configure your `application.properties` file:
+
+properties
+spring.application.name=demoavn
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/AVN   
+spring.datasource.username=postgres
+spring.datasource.password=Admin123                        
+
+server.port=8080
