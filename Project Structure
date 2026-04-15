@@ -1,0 +1,8 @@
+EmployeeService/
+├── src/main/java/com/example/employeeservice/
+│   ├── entity/Employee.java
+│   ├── repository/EmployeeRepo.java
+│   ├── service/EmpService.java
+│   └── controller/EmpController.java
+├── src/main/resources/application.properties
+└── README.md
