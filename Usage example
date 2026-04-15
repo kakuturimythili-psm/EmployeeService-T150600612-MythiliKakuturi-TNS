@@ -1,0 +1,4 @@
+EmployeeService service = new EmployeeService();
+service.addEmployee(new Employee(1, "Alice", "HR"));
+Employee emp = service.getEmployeeById(1);
+System.out.println(emp.getName()); // Output: Alice
